@@ -1,0 +1,41 @@
+html{background: #333 }
+header{padding: 20px; }
+header img{width: 10%;}
+header h2{float: right; font-family: sans-serif; font-size: 15px; margin-top: 30px;}
+
+.contents{border-radius: 10px; border: 1px solid #333; padding: 20px; min-height: 350px; overflow: hidden;}
+.logincont{width: 800px; margin: 50px auto;}
+aside{width: 20%; float: left; min-height: 200px; margin-right: 50px}
+aside a{display: block; margin: 5px;}
+
+#page{float: left;}
+.contents h2{float: right; font-family:  monospace; font-size: 16px; color: blue;}
+
+footer{padding: 20px; text-align: center; border-top: 2px dashed #1b6d85; margin-top: 50px; }
+footer p{font-family: monospace; font-size: 25px;}
+.clear{width: 100%; height: 0; clear: both}
+
+
+
+.btn-danger{border-radius: 5px; padding: 10px 15px;}
+.btn-danger:hover{text-decoration: none}
+
+.register{width: 40%; float: left; min-height: 500px;}
+.login{width: 40%; float: right}
+.register h1, .login h1 {font-family: serif; font-size: 25px;}
+
+.register input[type="text"], .register input[type="Email"],.register input[type="password"], .register input[type="password"],
+.login input[type="text"], .login input[type="Email"],.login input[type="password"], .login input[type="password"], .register input[value="register"], .login input[value="Login"]
+{display: block; width: 250px; border: 1px solid #245580; margin: 10px; font-family: cursive;font-size: 15px;}
+
+.MainSettingsFrom{width: 400px; float: left;}
+.MainSettingsFrom label{width: 150px; float: left; font-family: monospace; font-size: 13px;}
+.MainSettingsFrom input{width: 250px; height: 30px; padding: 3px 5px;border: 1px solid #999; border-radius: 5px; display:block; margin-bottom: 10px;}
+.MainSettingsFrom textArea{width: 250px; border-radius: 5px; border: 1px solid #999; margin-bottom: 10px; height: 90px;}
+.MainSettingsFrom input[type="submit"]{height: 30px; text-align: center; margin: 20px 150px;}
+
+.Add h1{font-family: monospace ;font-size: 15px; border-bottom: 1px dashed #ddd; margin-bottom: 15px; }
+.Add input[type="submit"]{margin: 10px 150px ;}
+
+.SectionTable th{color: #333; background: #5bc0de; font-family: monospace; text-align: center; font-size: 15px}
+.SectionTable td img{max-width: 25px;}
